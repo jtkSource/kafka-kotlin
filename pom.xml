@@ -6,6 +6,7 @@
 
     <groupId>com.jtk.kafka</groupId>
     <artifactId>kafka-kotlin</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <developers>
         <developer>
@@ -14,6 +15,10 @@
             <email>jubin.kuriakose@gmail.com</email>
         </developer>
     </developers>
+    <modules>
+        <module>kafka-basics</module>
+        <module>kafka-twitter</module>
+    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
